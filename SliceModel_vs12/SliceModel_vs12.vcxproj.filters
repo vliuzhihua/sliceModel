@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ModelFileOperation">
+      <UniqueIdentifier>{4784db96-785d-4554-8a08-ddfe0a0d7dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseStruct">
+      <UniqueIdentifier>{0c4f5535-caa7-458e-9b6e-93944cc5df36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{d7c0fe83-213d-47fb-b911-98a937e717fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\imath">
+      <UniqueIdentifier>{0edfd140-ff85-4332-a5f2-90c661e920f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loadShader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDisplay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjOperation.h">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="StlOperation.h">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="OffOperation.h">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDataStruct.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="DataUtility.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutSlice.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFacet.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewEdge.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewVertex.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewIntersection.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewSolid.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="NewPlane.h">
+      <Filter>Source Files\BaseStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerOperator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateRecover.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="replayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="toolskit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imath\imath.h">
+      <Filter>Source Files\lib\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imath\imrat.h">
+      <Filter>Source Files\lib\imath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjOperation.cpp">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClCompile>
+    <ClCompile Include="StlOperation.cpp">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClCompile>
+    <ClCompile Include="OffOperation.cpp">
+      <Filter>Source Files\ModelFileOperation</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_old.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imath\imath.c">
+      <Filter>Source Files\lib\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imath\imrat.c">
+      <Filter>Source Files\lib\imath</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
